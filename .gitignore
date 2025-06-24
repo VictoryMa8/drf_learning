@@ -1,3 +1,23 @@
-.venv
-.env
 .DS_Store
+.vscode
+
+# Python
+*.pyc
+__pycache__
+
+# Virtual environment
+.env
+venv
+
+# Database
+db.sqlite3
+
+# Media and static files
+media
+static_root
+
+# Logs
+*.log
+
+# Local settings
+settings_local.py
